@@ -18,4 +18,4 @@ Enter password:
 
 ## Select Statements
 
-![select demo](https://github.com/jrlaberge/sqltosh/main/raw/master/assets/select.gif)
+![select demo](https://raw.githubusercontent.com/jrlaberge/sqltosh/main/assets/select-800px.gif)
