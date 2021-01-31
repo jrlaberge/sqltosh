@@ -197,10 +197,10 @@ class Prompt():
 
         files = self.get_files(directory)
 
-        files = self.sort_data(files, 'name')
-
         if not files:
             return False
+
+        files = self.sort_data(files, 'name')
 
         for counter, f in enumerate(files):
             table.add_row(str(counter), 
@@ -234,7 +234,7 @@ class Prompt():
 
         # check if directory exists
         if not path.exists(directory):
-            console.print(f"ERROR 1146 (42S02) at line 0: Directory {directory} doesn't exist")
+            console.print(f"ERROR 1146 (42S02) at line 0: Directory '{directory}' doesn't exist")
             return False
         
         # get all files in the path
